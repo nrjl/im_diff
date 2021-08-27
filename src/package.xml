@@ -1,0 +1,25 @@
+<package format="2">
+    <name>im_diff</name>
+    <version>1.0.0</version>
+    <description>
+        This package provides basic sequential image differencing. 
+    </description>
+    <maintainer email="nicholas.lawrance@mavt.ethz.ch">Nicholas Lawrance</maintainer>
+    <license>BSD</license>
+
+    <url>http://asl.ethz.ch</url>
+    <author>Nicholas Lawrance</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>roscpp</depend>
+    <depend>std_msgs</depend>
+    <depend>sensor_msgs</depend>
+    <depend>image_transport</depend>
+
+    <build_depend>message_generation</build_depend>
+
+    <exec_depend>message_runtime</exec_depend>
+    <exec_depend>rospy</exec_depend>
+
+</package>
